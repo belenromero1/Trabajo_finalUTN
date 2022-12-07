@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css"
 import {Routes,Route } from "react-router-dom";
 import { Contacto } from "./componentes/Contacto/Contacto";
 import { Footer } from "./componentes/Footer/Footer";
@@ -10,7 +11,7 @@ import { Productos } from "./componentes/Productos/Productos";
 function App  ()  {
 
     return(
-<>
+<body>
 <Header/>
 <Navbar/>
 
@@ -23,7 +24,7 @@ function App  ()  {
 
 
   <Footer/>
-            </>
+            </body>
         )
 }
 

@@ -32,7 +32,7 @@
     background-color: rgb(150, 145, 145);
     transition: 0.2s;
 }
-@media(min-width:600px),(max-width:768px){
+@media(max-width:768px){
 .sectionCompra{
     margin: 1rem;
     padding-left: 1rem;
@@ -42,8 +42,5 @@
 .imagen img{
     width: 220px;
 }
-
-}
-@media(min-width:768px){
 
 }
