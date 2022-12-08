@@ -9,11 +9,11 @@ export const NavbarMenu = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container className="containerNav">
-                <Navbar.Brand to="/">
+                <Link to="/">
                     <div className="logo">
                         <img src={Logo} alt='logoAtomik' />
                     </div>
-                </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

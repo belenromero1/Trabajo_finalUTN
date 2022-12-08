@@ -23,7 +23,7 @@ export const Footer = () => {
     return (
         <footer className="footer">
 
-            <label className="labelFooter"> Suscribite y enterate de todas las novedades</label>
+            <label className="labelFooter"> ¡Enterate de todas las novedades!</label>
 
             <div className="suscribirse">
                 <input className="correo" type="email" name="correo" placeholder="Ingresa tu email" />

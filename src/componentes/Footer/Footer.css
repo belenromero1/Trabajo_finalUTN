@@ -39,7 +39,10 @@
     color: rgb(178, 5, 62);
 }
 .correo{
+
     background-color: white;
+    width: 60vw;
+
 }
 .suscribirse{
     display: flex;
