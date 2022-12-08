@@ -3,7 +3,7 @@ import { Compras } from "../Compras/Compras";
 import { Carrito } from "../Carrito/Carrito";
 
 
-export const Productos = ({size})=>{
+export const Productos = ()=>{
     const [cart, setCart] = useState([]);
 
     const handleClick = (item) => {

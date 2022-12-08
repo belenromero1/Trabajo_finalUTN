@@ -1,11 +1,10 @@
 import React from "react";
-import "./App.css"
 import {Routes,Route } from "react-router-dom";
 import { Contacto } from "./componentes/Contacto/Contacto";
 import { Footer } from "./componentes/Footer/Footer";
 import { Header } from "./componentes/Header/Header";
 import { Inicio } from "./componentes/Inicio/Inicio";
-import { Navbar } from "./componentes/Navbar/Navbar";
+import { NavbarMenu } from "./componentes/Navbar/Navbar";
 import { Productos } from "./componentes/Productos/Productos";
 
 function App  ()  {
@@ -13,7 +12,7 @@ function App  ()  {
     return(
 <body>
 <Header/>
-<Navbar/>
+<NavbarMenu/>
 
                 <Routes>
                   

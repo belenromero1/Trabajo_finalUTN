@@ -19,21 +19,20 @@
     transition: 0.2s;
     
 }
-.Navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-
-@media(max-width:768px){
+@media(max-width:968px){
     .contenedorMenu{
         display: flex;
-        justify-content: space-around;
-        gap: 1.5rem;
-        padding: 0 1rem;
-        margin-right: 5rem;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin:0;
+        
     
     }
-        
+    .containerNav{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
